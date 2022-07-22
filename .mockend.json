@@ -6,8 +6,8 @@
       "max": 2000000
       }
     },
-    "Avatar": {
-      "regexp": "https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"
+    "Avatar" : {
+      "string" : ["https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"]
     },
     "AuthorId": {
      "int": {
