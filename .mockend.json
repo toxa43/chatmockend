@@ -42,7 +42,6 @@
       "loremWords": { "minLength": 1, "maxLength": 2 }
     },
     "UnreadCount" : {
-      {"int" : {"min":0, "max": 10}}
+      "int" : {"min":0, "max": 10}}
     }
   }
-}
