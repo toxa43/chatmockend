@@ -41,6 +41,9 @@
     "Title" : {
       "loremWords": { "minLength": 1, "maxLength": 2 }
     },
+    "Avatar" : {
+      "string" : ["https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"]
+    },
     "UnreadCount" : {
       "int" : {"min":0, "max": 10}}
     }
