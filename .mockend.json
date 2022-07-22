@@ -1,7 +1,10 @@
 {
   "Post": {
     "Id": {
-      "int": {}
+      "int": {
+      "min": 0,
+      "max": 20
+      }
     },
     "Avatar": {
       "regexp": "https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"
