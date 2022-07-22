@@ -4,7 +4,7 @@
   "Avatar" :  {
     "regexp": "https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"
   },
-    "AuthorId" : { "min": 0, "max": 20 }}
+    "AuthorId" : { "min": 0, "max": 20 }},
     "Text": { "loremParagraphs": { "minLength": 200, "maxLength": 500 } },
  "FromMe": { "boolean": {} } ,
 "Date": {"dateTime": {
@@ -12,11 +12,5 @@
       "max": "2022-12-31T23:59:59Z"
     }}
 
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
   }
-}
+
