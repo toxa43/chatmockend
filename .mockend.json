@@ -3,7 +3,7 @@
     "Id": {
       "int": {
       "min": 0,
-      "max": 20
+      "max": 2000000
       }
     },
     "Avatar": {
@@ -29,6 +29,20 @@
         "min": "2022-01-01T00:00:00Z",
         "max": "2022-12-31T23:59:59Z"
       }
+    }
+  },
+  "Dialog": {
+    "DialogId": {
+      "int": {
+      "min": 0,
+      "max": 2000000
+      }
+    },
+    "Title" : {
+      "loremWords": { "minLength": 1, "maxLength": 2 }
+    },
+    "UnreadCount" : {
+      {"int" : {"min":0, "max": 10}}
     }
   }
 }
