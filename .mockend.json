@@ -45,7 +45,7 @@
       "string" : ["https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png"]
     },
     "UnreadCount" : {
-      "int" : {"min":0, "max": 10}}
+      "int" : {"min":0, "max": 3}}
     }
    
   }
